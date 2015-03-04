@@ -1,21 +1,21 @@
 {
 	"manifest_version": 2,
 	"name": "หมีเหนียว",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"developer": { "name": "illuminati" },
 	"icons": {
 		"16": "icon.png",
 		"48": "icon.png",
 		"128": "icon.png"
 	},
-	"permissions": ["http://*.madoomee.com/", "http://*.madoomee.com:69/", "http://img.iseepussycat.pw/*", "management"],
+	"permissions": ["http://*.madoomee.com/", "http://*.madoomee.com:69/", "http://henmee.dll.in.th/*", "http://*.madoomeemk.com/", "management"],
 	"background": { "scripts":["background.js"], "persistent": false },
 	"options_page": "options.html",
 	"content_scripts": [{
-		"matches": ["http://madoomee.com/*", "http://madoomee.com:69/*"],
+		"matches": ["http://madoomee.com/*", "http://madoomee.com:69/*", "http://madoomeemk.com/*"],
 		"css": ["henmeejolly.css"]
 	}, {
-		"matches": ["http://madoomee.com/*", "http://madoomee.com:69/*"],
+		"matches": ["http://madoomee.com/*", "http://madoomee.com:69/*", "http://madoomeemk.com/*"],
 		"js": ["jquery-2.1.1.min.js", "henmeejolly.js"],
 		"run_at": "document_idle"
 	}]
